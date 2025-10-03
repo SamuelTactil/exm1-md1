@@ -107,4 +107,20 @@
 }
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .principal__contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oferta1,
+    .oferta2,
+    .oferta3,
+    .oferta4,
+    .oferta5,
+    .oferta6 {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px 0;
+    }
+}
