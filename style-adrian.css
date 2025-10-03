@@ -1,0 +1,133 @@
+:root {
+    --bg: #e3e6e6;
+    --accent-color: #cc0c39;
+    --accent-text: #2162a1;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.cuerpo {
+    background-color: var(--bg);
+}
+
+.principal {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.principal__prime {
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.principal__contenedor {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: var(--bg);
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.oferta {
+    padding-right: 20px;
+}
+
+.oferta1__texto {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.oferta1,
+.oferta2,
+.oferta3,
+.oferta4,
+.oferta5,
+.oferta6 {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oferta1__titulo,
+.oferta2__titulo,
+.oferta3__titulo,
+.oferta4__titulo,
+.oferta5__titulo,
+.oferta6__titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.oferta1__imagen,
+.oferta1__imagen2,
+.oferta1__imagen3,
+.oferta1__imagen4 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+    flex: 4;
+}
+
+.oferta1__porcentaje,
+.oferta1__porcentaje2,
+.oferta1__porcentaje3,
+.oferta1__porcentaje4 {
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--bg);
+    padding: 5px 10px;
+}
+
+.oferta2__imagen,
+.oferta3__imagen,
+.oferta4__imagen,
+.oferta5__imagen,
+.oferta6__imagen {
+    text-decoration: none;
+    color: var(--accent-text);
+}
+
+@media screen and (max-width: 768px) {
+    .principal__contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oferta1,
+    .oferta2,
+    .oferta3,
+    .oferta4,
+    .oferta5,
+    .oferta6 {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px 0;
+    }
+}
