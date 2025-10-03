@@ -21,7 +21,6 @@
     background-color: var(--bg);
 }
 
-
 .principal {
     padding: 20px;
     text-align: center;
@@ -114,7 +113,6 @@
     text-decoration: none;
     color: var(--accent-text);
 }
-
 
 @media screen and (max-width: 768px) {
     .principal__contenedor {

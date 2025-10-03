@@ -15,4 +15,5 @@ function sumarPares(n) {
 function tablaMultiplicar(n) {
     for (let i = n; i <= tope; i++) {
         return n * i;
-    } console.log(tablaMultiplicar(n))
+    } console.log(tablaMultiplicar(5))
+}
