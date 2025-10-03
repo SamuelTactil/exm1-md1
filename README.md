@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/22677950/README.md)
 # Colores
 
 :root{
